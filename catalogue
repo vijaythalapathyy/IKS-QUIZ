@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogue - Online Book Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #f58a8a;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #f28989;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .catalog {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            grid-gap: 20px;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .book {
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(255, 139, 139, 0.1);
+        }
+
+        .book img {
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .book h3 {
+            margin-top: 0;
+        }
+
+        .book p {
+            margin: 10px 0;
+        }
+
+        footer {
+            background-color: #eb8787;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Catalogue - Online Book Store</h1>
+    </header>
+
+    <nav>
+        <a href="http://127.0.0.1:5500/asshome.html">Home</a>
+        <a href="http://127.0.0.1:5500/register.html">Register</a>
+        
+    </nav>
+
+    <div class="catalog">
+        <div class="book">
+            <img src="book1.jpg" alt="Book 1">
+            <h3>Book Title 1</h3>
+            <p>Author: Author Name</p>
+            <p>Price: $10.99</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="book">
+            <img src=".
+            
+            
+            
+            
+            
+            " alt="Book 2">
+            <h3>Book Title 2</h3>
+            <p>Author: Author Name</p>
+            <p>Price: $12.99</p>
+            <button>Add to Cart</button>
+        </div>
+        <!-- Add more book entries as needed -->
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Online Book Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
