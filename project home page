@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    
+
+   <title>WELCOME TO IKS QUIZ</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<script>
+function openWin() {
+  window.open("http://127.0.0.1:5500/second_web_page.html");
+  
+
+}
+</script>
+
+
+<center>
+<body>
+    <body style = "background-color:lightyellow;"></body>
+<font="40">
+<p> <h1>WELCOME TO IKS QUIZ<h1></p>
+</font>
+</center>
+<p><center>
+
+<form>
+  <input type="button" value="PRESS HERE TO START !" onclick="openWin()">
+</form>
+</p></center>
+<font=" 30">
+<p><center><h2>HERE SOME INFORMATION ABOUT IKS !</h2>
+</font>
+<center>
+    <p>                           
+
+
+    </p>
+<a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D5H2X8HB4BPM&psig=AOvVaw2RHgRunjNsqHFKH6zAEhRo&ust=1708665542354000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCIjcyqmZvoQDFQAAAAAdAAAAABAE">
+                <img src="https://i.ytimg.com/vi/5H2X8HB4BPM/maxresdefault.jpg" height="400" width="520">
+</center>
+<br>
+
+<center>
+    <p>
+
+
+    </p>
+    <p>
+
+
+    </p>
+    <hr>
+    <p>LET'S CHECK YOUR KNOWLEDGE RELATED TO THE INDIAN KNOWLEDGE SYSTEM !</p>
+</center>
+<br> 
+</body>
+</html>
